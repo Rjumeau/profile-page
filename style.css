@@ -1,0 +1,91 @@
+/* Font and colors (generic style) */
+body {
+  background-color: #bfd1e5;
+  color: rgb(30, 30, 30);
+  font-size: 16px;
+  font-weight: lighter;
+  font-family: "Open Sans", sans-serif;
+}
+
+
+h1 {
+  font-size: 32px;
+  font-weight: 900;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+h1, h2, h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #542344;
+}
+
+
+a {
+  text-decoration: none;
+  color: #2364aa;
+  font-weight: 900;
+}
+
+
+/* Class and (maybe) Ids */
+
+.container {
+  width: 700px;
+  margin: 24px auto;
+}
+
+.card-white {
+  margin: 16px 0px;
+  background-color: white;
+  padding: 32px;
+  border-radius: 4px;
+  box-shadow: 0 10px 15px rgba(0,0,0,0.1);
+}
+
+.text-center {
+  text-align: center;
+}
+
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.btn-blue {
+  background-color: #2364aa;
+  color: white;
+  padding: 16px 24px;
+  border-radius: 4px;
+  transition: 0.3s
+}
+
+.btn-blue:hover {
+  background-color: #153C66;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0;
+}
+
+.list-inline li {
+  display: inline;
+  margin: 5px;
+}
+
+#introduction p {
+  margin-bottom: 32px;
+}
+
+#footer i {
+  font-size: 32px;
+  transition: 0.3s;
+}
+
+#footer i:hover {
+  color: #030A11;
+}
